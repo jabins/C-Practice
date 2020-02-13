@@ -1,0 +1,14 @@
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\bin\Debug\WPF_TextEditor.exe.config
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\bin\Debug\WPF_TextEditor.exe
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\bin\Debug\WPF_TextEditor.pdb
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor.csprojAssemblyReference.cache
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\MainWindow.g.cs
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\App.g.cs
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor_MarkupCompile.cache
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor_MarkupCompile.lref
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\MainWindow.baml
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor.g.resources
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor.Properties.Resources.resources
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor.csproj.GenerateResource.cache
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor.exe
+C:\Users\Jabin\source\repos\WPF_TextEditor\WPF_TextEditor\obj\Debug\WPF_TextEditor.pdb

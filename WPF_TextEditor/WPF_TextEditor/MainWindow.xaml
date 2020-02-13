@@ -1,0 +1,74 @@
+﻿<Window x:Class="WPF_TextEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_TextEditor"
+        mc:Ignorable="d"
+        Title="Text Editor"
+        Height="450"
+        Width="800">
+    <!--Define Command Bindings-->
+    <Window.CommandBindings>
+        <!---Use the Close command to bind it to handler created in MainWindow Class-->
+        <CommandBinding Command="Close"
+                        Executed="CommandBinding_Executed" />
+    </Window.CommandBindings>
+    <Grid>
+        <!--Create three rows for Menu, ToolBar, RichTextBox-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!---Create Menu-->
+        <Menu Grid.Row="0">
+            <!--Create items in the menu-->
+            <!--File Menu-->
+            <MenuItem Header="File">
+                <MenuItem Header="Exit"
+                          Command="Close"/>
+            </MenuItem>
+            <!--Edit Menu-->
+            <MenuItem Header="Edit">
+                <MenuItem Header="Cut"
+                          Command="Cut" />
+                <MenuItem Header="Copy"
+                          Command="Copy" />
+                <MenuItem Header="Paste"
+                          Command="Paste" />
+                <Separator />
+                <MenuItem Header="Font Style">
+                    <MenuItem Header="Bold"
+                              Command="ToggleBold"
+                              FontWeight="Bold" />
+                    <MenuItem Header="Italic"
+                              Command="ToggleItalic"
+                              FontStyle="Italic" />
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        
+        <!--Create ToolBar-->
+        <ToolBar Grid.Row="1">
+            <!--Create Buttons for Cut, Copy, Paste, Bold, Italic-->
+            <Button Command="Cut">Cut</Button>
+            <Button Command="Copy">Copy</Button>
+            <Button Command="Paste">Paste</Button>
+            <Separator />
+            <Button Command="ToggleBold"
+                    FontWeight="Bold">Bold</Button>
+            <Button Command="ToggleItalic"
+                    FontStyle="Italic">Italic</Button>
+        </ToolBar>
+        
+        <!--Create RichTextBox-->
+        <RichTextBox Grid.Row="2"
+                     Margin="5" />
+    </Grid>
+</Window>
+    
+<!--CopyRight-->
+<!--Name: Jabin Choi-->
+<!--Centennial College-->
