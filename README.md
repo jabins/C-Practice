@@ -1,4 +1,4 @@
-# C-Practice
+# C-Sharp Practice
 
 All codes in this repository are related to C# Programming.
 
